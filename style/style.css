@@ -49,14 +49,62 @@ main{
 .self-intro{
     display: flex;
     padding: 30px;
-    width: auto;
+    gap: 150px;
     align-items: center;
-    justify-content: space-evenly;
-    border: 1px solid #F15B22;
+    justify-content: center;
+    margin-top: -50px;
+}
+.self-intro img{
+    height: 500px;
+}
+.intro{
+    height: 200px;
+    width: 203px;
+    text-align: left;
+    
+}
+.intro h1{
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.intro p{
+    margin-bottom: 10px;
+    color: #706f6f;
 }
 .intro ul{
     list-style: none;
+    text-wrap: nowrap;
 }
 span{
     color: #16d887;
+}
+.plans{
+    height: 100px;
+    width: 800px;
+    margin:130px 350px;
+    text-align: center;
+}
+.plans-description{
+    display: flex;
+    width: auto;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.plans h1{
+    font-size: 2em;
+    font-weight: 900;
+}
+.plans-items p{
+    color: #706f6f;
+}
+.contact-us{
+    margin-top: 180px;
+    text-align: center;
+    background: url(../images/watch.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+footer{
+    margin-top: 130px;
+    background-color: black;
 }
