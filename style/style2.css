@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  height: 340px;
+  width: auto;
+}
+.banner-img {
+  height: 645px;
+  width: auto;
+  position: absolute;
+}
+.banner-description {
+  position: relative;
+  height: 250px;
+  width: 380px;
+  top: 280px;
+  left: 60%;
+  text-align: right;
+}
+.banner-btn {
+  padding: 8px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: #f15b22;
+  color: #ffff;
+  cursor: pointer;
+}
+.bio-data {
+  display: flex;
+  margin-top: 531px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.self-image img {
+  height: 500px;
+}
+.plans-description {
+  padding: 15px;
+  width: 280px;
+  text-align: left;
+}
+li {
+  list-style: none;
+}
+span {
+  color: #16d887;
+}
+.plane-section {
+  height: 100px;
+  width: 800px;
+  margin: 130px 350px;
+  margin-top: 130px;
+  text-align: center;
+}
+.plan-description {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.contact-us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 230px;
+}
+.contact-info {
+  height: 180px;
+  width: 50%;
+  padding: 10px;
+  background: url(../images/gradient2.png), url(../images/watch.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contact-info h1 {
+    margin-top: 45px;
+    margin-bottom: 15px;
+    width: 230px;
+  }
+  .btn-primary{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #FFFF;
+    color: #f15b22;
+    cursor: pointer;
+  }
+  .page {
+    margin: 130px;
+  }
+  .link-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .link-btn{
+    padding: 20px;
+    font-size: large;
+    font-weight: bolder;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+  }
+  .link-btn a{
+    text-decoration: none;
+    color: #000;
+  }
+  footer {
+    display: flex;
+    height: 256px;
+    width: 105%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 130px;
+    background-color: black;
+    color: #fff;
+  }
+  .web-info {
+    text-wrap: wrap;
+    text-align: justify;
+  }
+  .description {
+    width: 300px;
+  }
+  .email-section {
+    padding: 10px;
+    line-height: 50px;
+  }
+  #email {
+    height: 25px;
+    width: auto;
+    padding: 5px;
+    border: none;
+  }
