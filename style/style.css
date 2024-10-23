@@ -117,6 +117,28 @@ span {
   margin-bottom: 15px;
   width: 230px;
 }
+.page {
+  margin: 130px;
+}
+.link-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.link-btn{
+  padding: 20px;
+  font-size: large;
+  font-weight: bolder;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.link-btn a{
+  text-decoration: none;
+  color: #000;
+}
 .btn {
   padding: 8px;
   font-weight: bold;
