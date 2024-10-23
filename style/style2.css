@@ -116,7 +116,7 @@ span {
   }
   footer {
     display: flex;
-    height: 256px;
+    height: 276px;
     width: 105%;
     align-items: center;
     justify-content: space-around;
@@ -124,6 +124,13 @@ span {
     background-color: black;
     color: #fff;
   }
+  .social-icon{
+    display: flex;
+    gap: 20px;
+}
+.social-icon img{
+    height: 30px;
+}
   .web-info {
     text-wrap: wrap;
     text-align: justify;
